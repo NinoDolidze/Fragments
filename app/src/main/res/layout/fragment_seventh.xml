@@ -20,15 +20,17 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:ems="10"
-            android:hint="შემოიტანეთ შენიშვნა აქ"
-            android:inputType="textPersonName" />
+            android:hint="შემოიტანეთ ტექსტი აქ"
+            android:inputType="textPersonName"
+            tools:ignore="HardcodedText" />
 
         <Button
             android:id="@+id/buttonAdd"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="დამატება" />
+            android:text="დამატება"
+            tools:ignore="HardcodedText" />
     </LinearLayout>
 
     <TextView
@@ -41,4 +43,5 @@
         android:textSize="24sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
