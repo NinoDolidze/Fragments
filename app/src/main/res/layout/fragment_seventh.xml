@@ -2,6 +2,7 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:background="#DCD8D8"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -22,6 +23,8 @@
             android:ems="10"
             android:hint="შემოიტანეთ ტექსტი აქ"
             android:inputType="textPersonName"
+            android:textColor="#070707"
+            android:textColorHint="#454545"
             tools:ignore="HardcodedText" />
 
         <Button
